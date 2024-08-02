@@ -50,10 +50,13 @@ display: inline-block;
     /*Bio Styles*/
 .bio-box {
 border: 1px solid black;
-width: 50%;
-margin: 10%;
-font-size: 1em ;
-padding: 20px ;
+box-sizing: border-box;
+float: left;
+font-size: 1rem;
+padding: 2%;
+width: 25%;
+
+
 
 }
 .bio-wrapper{
@@ -89,9 +92,6 @@ font-size: 1em ;
 </ul>
 </div>
 <h2>I'm an h2</h2>
-<div class="test-box"> 200px wide</div>
-<div class="test-box test-box-nosizing">200px wide + border +padding = 300px</div>
-<div class="test-box test-box-nosizing test-box-sizing">200px wide +border +padding + box-sizing :border-box = 200px</div>
 <div class="bio-wrapper">
 <div class="bio-box" >
 <h3>Michael Hartl</h3>
